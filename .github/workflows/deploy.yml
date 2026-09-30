@@ -1,0 +1,47 @@
+# main にマージされたら、変更されたファイルだけを さくらのレンタルサーバーへ自動アップロードする
+#
+# 必要な GitHub Secrets（Settings → Secrets and variables → Actions）
+#   FTP_SERVER   : aquaokapi50.sakura.ne.jp
+#   FTP_USERNAME : aquaokapi50
+#   FTP_PASSWORD : さくらのサーバーパスワード
+#
+# リポジトリの <サイト>/ フォルダ ＝ サーバーの www/<サイト>/ フォルダ
+#   cuoreplus/textFile/ → www/cuoreplus/textFile/ （https://www.cuoreplus.com/）
+#   piano-ito/textFile/ → www/piano-ito/textFile/ （https://www.ito-tomoko-piano.com/）
+#   <サイト>/data/      → www/<サイト>/data/      （画像）
+#
+# リポジトリに無いサーバー上のファイル（過去の画像など）は触らない。
+
+name: Deploy to Sakura
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "cuoreplus/**"
+      - "piano-ito/**"
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-sakura
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 1
+      matrix:
+        site: [cuoreplus, piano-ito]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload ${{ matrix.site }}
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./${{ matrix.site }}/
+          server-dir: www/${{ matrix.site }}/
