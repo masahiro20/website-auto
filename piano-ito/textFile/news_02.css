@@ -1,0 +1,517 @@
+@media screen and (min-width: 481px){
+  html {
+    font-size: 62.5%;
+    font-family: 'Zen Maru Gothic', serif;
+  }
+  
+  
+  body {
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  body * {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .body_wrap {
+    width: 100%;
+    background-image: url(http://aquaokapi50.sakura.ne.jp/piano-ito/data/index/back_img_washi.jpg);
+    background-size:cover;
+    position: relative;
+    z-index: 100;
+    padding-bottom: 300px;
+  }
+
+
+  header {
+    width: 100%;
+  }
+
+  .header_wrap {
+    width: 100%;
+    padding-top: 70px;
+    padding-left: 200px;
+  }
+
+  .header_logo img {
+    width: 150px;
+    vertical-align: bottom;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+
+  .phone_wrap {
+    position: fixed;
+    top: 80px;
+    right: 100px;
+    z-index: 100;
+    display: flex;
+  }
+
+  .header_tel i {
+    color: #fff;
+    background-color: #cfa790;
+    border-radius: 50px;
+    box-shadow: 1px 2px 5px #424242;
+    font-size: 3.0rem;
+    padding: 15px;
+    margin-right: 50px;
+  }
+
+  .header_mail i {
+    color: #fff;
+    background-color: #cfa790;
+    border-radius: 50px;
+    box-shadow: 1px 2px 5px #424242;
+    font-size: 3.0rem;
+    padding: 15px;
+  }
+
+
+
+  .main_contents {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+
+
+  .sidewrap {
+    width: 40%;
+    margin: auto;
+  }
+
+  .header_contents {
+    width: 100%;
+    text-align: center;
+    margin-right: 50px;
+  }
+
+  .list_wrap a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 3.0rem;
+    color: #80321b;
+    text-shadow: 1px 2px 5px #aaaaaa;
+  }
+
+  .list_item {
+    margin-bottom: 10px;
+  }
+
+  .up_icon_wrap {
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    z-index: 100;
+  }
+
+  .up_icon {
+    font-size: 6.0rem;
+    color: #969595;
+  }
+
+  .up_icon_wrap p {
+    font-size: 3.0rem;
+    font-weight: 600;
+    color: #666666;
+  }
+
+
+
+
+  .contents {
+    width: 80%;
+    margin: auto;
+    margin-top: 0;
+  }
+
+  .contents h1 {
+    width: 80%;
+    text-align: left;
+    font-size: 3.8rem;
+    border-bottom: solid 2px #000000;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+    color: #2b2b2b;
+  }
+
+  .date {
+    margin-bottom: 30px;
+    font-size: 3.0rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+    color: #4b4b4b;
+  }
+
+  .sentence {
+    width: 100%;
+    text-align: left;
+    font-size: 2.1rem;
+    line-height: 200%;
+    letter-spacing: 0.1em;
+    color: #4b4b4b;
+  }
+
+  .space {
+    margin-top: 20px;
+  }
+
+
+
+  .main_contents_sp {
+    display: none;
+  }
+
+  .last_main {
+    display: none;
+  }
+
+
+
+
+
+  #access {
+    width: 100%;
+    border-top: 5px solid #352200;
+  }
+
+  #access iframe {
+    width: 100%;
+  }
+
+
+
+  footer {
+    width: 100%;
+    background-color: #352200;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    position: relative;
+  }
+
+  .footer_top_text {
+    font-size: 2.4rem;
+    position: absolute;
+    top: 0;
+    left: 50px;
+  }
+
+  footer h1 {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+  }
+
+  footer img {
+    width: 150px;
+  }
+
+  .info_wrap {
+    width: 50%;
+    margin: auto;
+    font-size: 2.0rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+  }
+
+  .icon_wrap {
+    width: 25%;
+    margin: auto;
+    font-size: 3.5rem;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .icon_wrap a {
+    color: #fff;
+    display: inline-block;
+    width: 10%;
+    margin: auto;
+  }
+
+  .address {
+    width: 50%;
+    margin: auto;
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+  html {
+    font-size: 62.5%;
+    font-family: 'Zen Maru Gothic', serif;
+  }
+  
+  
+  body {
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  body * {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .body_wrap {
+    width: 100%;
+    background-image: url(http://aquaokapi50.sakura.ne.jp/piano-ito/data/index/back_img_washi.jpg);
+    background-size:cover;
+    position: relative;
+    z-index: 100;
+    padding-bottom: 100px;
+  }
+
+
+  header {
+    width: 100%;
+    position: relative;
+    z-index: 10;
+  }
+
+  .header_wrap {
+    width: 100%;
+    padding-top: 80px;
+  }
+
+  .header_logo {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+  }
+
+  .header_logo img {
+    width: 100px;
+    vertical-align: bottom;
+  }
+
+  .phone_wrap {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    z-index: 100;
+  }
+
+  .header_tel i {
+    color: #fff;
+    background-color: #cfa790;
+    border-radius: 50px;
+    box-shadow: 1px 2px 5px #424242;
+    font-size: 2.0rem;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .header_mail i {
+    color: #fff;
+    background-color: #cfa790;
+    border-radius: 50px;
+    box-shadow: 1px 2px 5px #424242;
+    font-size: 2.0rem;
+    padding: 15px;
+  }
+
+
+
+
+
+  .main_contents {
+    display: none;
+  }
+
+  .main_contents_sp {
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+  }
+
+  .contents_title_01 {
+    width: 90%;
+    font-size: 2.7rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2b2b2b;
+  }
+
+  .contents_title_02 {
+    width: 90%;
+    font-size: 2.7rem;
+    border-bottom: solid 2px #000000;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2b2b2b;
+  }
+
+  .date_sp {
+    margin-bottom: 20px;
+    font-size: 2.0rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #4b4b4b;
+  }
+
+  .sentence_sp {
+    width: 95%;
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 200%;
+    letter-spacing: 0.05em;
+    color: #4b4b4b;
+  }
+
+  .big_sp {
+    font-size: 2.2rem;
+    font-weight: 600;
+    padding: 0 10px;
+    color: #000000;
+
+  }
+
+  .red_sp {
+    color: #ff0000;
+    font-size: 2.2rem;
+  }
+
+  .space_sp {
+    padding-top: 20px;
+  }
+
+
+
+  .last_contents {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .list_wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .list_wrap a {
+    text-decoration: none;
+    font-size: 2.0rem;
+    color: #753408;
+    text-shadow: 1px 2px 5px #c4c4c4;
+  }
+
+  .list_item {
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 10px;
+  }
+
+  .up_icon_wrap {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 150;
+  }
+
+  .up_icon {
+    font-size: 5.0rem;
+    color: #969595;
+  }
+
+  .up_icon_wrap p {
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 600;
+    color: #666666;
+  }
+
+
+
+
+
+
+
+
+  #access {
+    width: 100%;
+    border-top: 5px solid #352200;
+  }
+
+  #access iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+
+
+  footer {
+    width: 100%;
+    background-color: #352200;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+
+  .footer_top_text {
+    font-size: 1.6rem;
+  }
+
+  footer h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer img {
+    width: 120px;
+    margin-top: 30px;
+  }
+
+  .info_wrap {
+    width: 95%;
+    margin: auto;
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+  }
+
+  .icon_wrap {
+    width: 50%;
+    margin: auto;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+
+  .icon_wrap a {
+    color: #fff;
+    width: 10%;
+    margin: auto;
+    padding-left: 10px;
+  }
+
+  .address {
+    width: 50%;
+    margin: auto;
+  }
+
+
+}

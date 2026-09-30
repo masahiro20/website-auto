@@ -1,0 +1,636 @@
+@media screen and (mIN-width:481px){
+  html {
+    font-size: 62.5%;
+  }
+  
+  
+  
+  body {
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Lora', serif;
+    background-color: rgb(255, 252, 248);
+  }
+  
+  body * {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  header {
+    width: 100%;
+    margin: auto;
+    position: relative;
+  }
+  
+  .header_wrapper {
+    width: 100%;
+  }
+  
+  .header_icon {
+    position: absolute;
+    position: fixed;
+    top: 35px;
+    left: 50px;
+    z-index: 100;
+  }
+  
+  .header_icon img {
+    width: 10vw;
+  }
+  
+  .header_icon a {
+    vertical-align: top;
+  }
+  
+  
+  
+  #icon-show {
+    display: block;
+    border: none;
+    background: transparent;
+    font-size: 4.5rem;
+    position: absolute;
+    position: fixed;
+    top: 35px;
+    right: 50px;
+    z-index: 100;
+    color: rgba(80, 167, 100, 0.822);
+  }
+  
+  #icon-hide {
+    display: none;
+    border: none;
+    background: transparent;
+    font-size: 4.5rem;
+    position: absolute;
+    position: fixed;
+    top: 35px;
+    right: 50px;
+    z-index: 100;
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  .menu_wrapper {
+    width: 100%;
+    height: 400px;
+    display: none;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(58, 58, 58, 0.767);
+  }
+  
+  .menu_list {
+    padding-top: 100px;
+  }
+  
+  .menu_wrapper a {
+    display: block;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 2.5rem;
+  }
+  
+  
+  .menu_wrapper a:hover {
+    color: #97e7ab;
+  }
+  
+  .header_access {
+    position: absolute;
+    position: fixed;
+    top: 550px;
+    right: 30px;
+    z-index: 100;
+  }
+  
+  .header_access img {
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px #969696,
+    -1px -2px 5px #969696 ;
+  }
+
+
+
+
+
+
+  .contents {
+    width: 80%;
+    height: 250vh;
+    margin: auto;
+  }
+
+  .contents h1 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 6.0rem;
+    color: #123a0098;
+    text-shadow: 0 0 0.2em rgb(255, 255, 255);
+    border-bottom: solid 2px rgb(101, 15, 0);
+    margin-top: 100PX;
+  }
+
+  .sub_title {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 2.7rem;
+    color: #123a0098;
+  }
+
+  .product_wrap {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: rgba(148, 98, 60, 0.807);
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+
+  .product_wrap P {
+    margin-top: 10PX;
+  }
+
+
+
+
+
+
+
+  .contact {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    padding-top: 50px;
+  }
+  
+  .contact_wrap {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .contact_wrap h3 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 4.0rem;
+    margin-bottom: 10px;
+    color: rgb(105, 43, 7);
+    border-top: solid 1px #9b9b9b;
+    padding-top: 100px;
+  }
+  
+  .access_text_wrap {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .contact_wrap p {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 2.5rem;
+    color: rgba(148, 98, 60, 0.807);
+  }
+  
+  .tel {
+    display: block;
+    width: 30vw;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #9b9b9b;
+    padding: 15px 30px;
+    border-radius: 3px;
+    font-size: 2.5rem;
+  }
+  
+  .contact_wrap img {
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 1px 2px 5px #000000;
+  }
+  
+  
+  
+  footer {
+    width: 60%;
+    margin: auto;
+    height: 650px;
+    text-align: center;
+    border-top: solid 1px #9b9b9b;
+    padding-top: 30px;
+  }
+  
+  .footer_logo {
+    width: 30%;
+    margin-bottom: 50px;
+  }
+  
+  .footer_wrapper {
+    width: 100%;
+  }
+  
+  .footer_icon_wrap {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  
+  .footer_wrapper a {
+    width: 30%;
+    margin: auto;
+    color: rgb(108, 47, 0);
+    font-size: 45px;
+  }
+  
+  .access_list {
+    width: 100%;
+  }
+
+  .access_list p {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 2.5rem;
+    color: rgb(105, 43, 7);
+  }
+
+  .access_space {
+    padding-top: 10px;
+  }
+
+
+
+
+
+
+
+
+  /* fadeUp */
+
+.fadeUp{
+  animation-name:fadeUpAnime;
+  animation-duration:1.5s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeUpAnime{
+    from {
+      opacity: 0;
+    transform: translateY(100px);
+    }
+  
+    to {
+      opacity: 1;
+    transform: translateY(0);
+    }
+  }
+  
+  
+  /* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+   
+  .fadeUpTrigger{
+      opacity: 0;
+  }
+
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+  html {
+    font-size: 62.5%;
+  }
+  
+  
+  
+  body {
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Lora', serif;
+    background-color: rgb(255, 252, 248);
+  }
+  
+  body * {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  header {
+    width: 100%;
+    height: 200px;
+    position: relative;
+  }
+
+  .header_wrapper {
+    width: 100%;
+  }
+
+  .header_icon {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 0;
+  }
+
+  .header_icon img {
+    width: 25%;
+  }
+
+  .header_icon a {
+    vertical-align: top;
+  }
+
+
+
+  #icon-show {
+    display: block;
+    border: none;
+    background: transparent;
+    font-size: 35px;
+    position: absolute;
+    position: fixed;
+    top: 50px;
+    right: 40px;
+    z-index: 100;
+    color: rgba(80, 167, 100, 0.822);
+  }
+  
+  #icon-hide {
+    display: none;
+    border: none;
+    background: transparent;
+    font-size: 35px;
+    position: absolute;
+    position: fixed;
+    top: 50px;
+    right: 40px;
+    z-index: 100;
+    color: #ffffff;
+  }
+  
+  
+  .menu_wrapper {
+    width: 100%;
+    height: 400px;
+    display: none;
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(58, 58, 58, 0.767);
+  }
+
+  .menu_list {
+    padding-top: 100px;
+  }
+
+  .menu_wrapper a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 1.5rem;
+  }
+
+
+  .menu_wrapper a:hover {
+    color: #97e7ab;
+  }
+
+  .header_access {
+    position: absolute;
+    position: fixed;
+    top: 550px;
+    right: 30px;
+    z-index: 100;
+  }
+
+  .header_access img {
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px #969696,
+    -1px -2px 5px #969696 ;
+  }
+
+
+
+
+
+
+  .contents {
+    width: 100%;
+    height: 1150px;
+    margin: auto;
+  }
+
+  .contents h1 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 3.0rem;
+    color: #123a0098;
+    text-shadow: 0 0 0.2em rgb(255, 255, 255);
+    border-bottom: solid 2px rgb(101, 15, 0);
+  }
+
+  .sub_title {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #123a0098;
+  }
+
+  .product_wrap {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    color: rgba(148, 98, 60, 0.807);
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+
+  .contact {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    padding-top: 50px;
+    border-top: solid 1px #9b9b9b;
+    border-bottom: solid 1px #9b9b9b;
+    margin-top: 100px;
+  }
+
+  .contact_wrap {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact_wrap h3 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 2.7rem;
+    margin-bottom: 10px;
+    color: rgb(105, 43, 7);
+    padding-top: 30px;
+  }
+
+  .access_text_wrap {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .contact_wrap p {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.7rem;
+    color: rgba(148, 98, 60, 0.807);
+  }
+
+  .tel {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #9b9b9b;
+    padding: 15px 30px;
+    border-radius: 3px;
+    font-size: 18px;
+  }
+
+  .contact_wrap img {
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 1px 2px 5px #000000;
+  }
+
+  
+
+  footer {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+  }
+
+  .footer_logo {
+    width: 50%;
+    margin-bottom: 60px;
+  }
+
+  .footer_wrapper {
+    width: 100%;
+  }
+
+  .footer_icon_wrap {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .footer_wrapper a {
+    width: 30%;
+    margin: auto;
+    color: rgb(108, 47, 0);
+    font-size: 45px;
+  }
+
+  .access_list {
+    width: 100%;
+  }
+
+  .access_list p {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 1.9rem;
+    color: rgb(108, 47, 0);
+  }
+
+  .access_space {
+    padding-top: 10px;
+  }
+
+
+
+
+
+
+
+
+
+  /* fadeUp */
+
+.fadeUp{
+  animation-name:fadeUpAnime;
+  animation-duration:1.5s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeUpAnime{
+    from {
+      opacity: 0;
+    transform: translateY(100px);
+    }
+  
+    to {
+      opacity: 1;
+    transform: translateY(0);
+    }
+  }
+  
+  
+  /* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+   
+  .fadeUpTrigger{
+      opacity: 0;
+  }
+
+
+
+} 
